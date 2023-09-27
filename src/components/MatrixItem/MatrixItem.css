@@ -1,0 +1,26 @@
+.matrix {
+  .matrix__item {
+    background-image: linear-gradient(to right, #58cf39, #23e200);
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:focus {
+      outline: 0;
+    }
+
+
+    .matrix__button-text {
+      color: rgb(128, 128, 128);
+    }
+  }
+
+  .matrix__item_higlight  {
+    font-weight: bold;
+    border: 3px solid #620000;
+    background-color:black;
+
+  }
+}
+

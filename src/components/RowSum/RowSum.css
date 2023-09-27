@@ -1,0 +1,7 @@
+.matrix__row-sum {
+    color: #23e200;
+    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
